@@ -6,7 +6,7 @@ body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     background: #222;
-    background-image: url('https://source.unsplash.com/1920x1080/?city');
+    background-image: url('https://source.unsplash.com/1920x1080/?cities');
 }
 
 .card {
@@ -67,4 +67,19 @@ h1.temp {
 .description {
     text-transform: capitalize;
     margin-left: 10px;
+}
+
+/*
+.weather.loading {
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+}
+
+.weather.loading:after {
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+    position: absolute;
+    top: 0;
 }
